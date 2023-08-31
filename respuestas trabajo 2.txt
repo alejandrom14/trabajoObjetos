@@ -1,0 +1,20 @@
+1- ¿Qué pasa cuando se corre el comando tsc?
+
+Cuando ejecutamos el comando tsc lo que hacemos es compilar el codigo escrito en typescript y convertirlo en codigo JavaScript. Y se crea un archivo .js con el codigo para JavaScript.
+
+2- ¿Cómo está organizada una clase?
+
+Primero se declara la clase con la palabra reservada "class" y se le da un nombre. Luego se crean los atributos q son variables q almacenan informacion (string, number, etc) dentro de la clase, pueden ser public, private o protected.
+Luego se define el constructor para inicializar las propiedades de la clase.
+Luego se definen los metodos o funciones de la clase.
+
+3- ¿Es correcto que un método auxiliar de una clase 
+sea público? ¿Por qué?
+
+Un metodo auxiliar puede ser publico, si necesitamos q la informacion sea visible fuera del metodo. Pero generalmente es buena practica hacerlos privados para no exponer innecesariamente su implementacion a otras partes del codigo, asi sera mas facil mantener el codigo en el futuro si son necesarias modificaciones.
+
+
+4- Enumerar las características de una interfaz
+
+Propiedades: se definen con sus tipos para especificar q atributos debe tenes los objetos q cumplan con la interfaz.
+Metodos: se definen los metodos q deben estar presentes en la clase q implemente la interfaz.
